@@ -46,6 +46,10 @@ footer {
                 }
             }
 
+            a:hover {
+                color: deeppink;
+            }
+
             .place {
                 align-items: center;
                 display: flex;
@@ -73,6 +77,10 @@ footer {
                         margin-top: 4px;
                         display: inline-flex;
                     }
+                }
+
+                a:hover {
+                    color: deeppink;
                 }
 
                 a{
@@ -135,6 +143,10 @@ footer {
                 }
             }
 
+            .tel:hover {
+                color: deeppink;
+            }
+
             .tel {
                 display: inline-flex;
                 font-style: normal;
@@ -159,6 +171,10 @@ footer {
                 font-size: 16px;
                 line-height: 20px;
                 color: #24A3FF;
+            }
+
+            .post:hover {
+                color: deeppink;
             }
         }
     }

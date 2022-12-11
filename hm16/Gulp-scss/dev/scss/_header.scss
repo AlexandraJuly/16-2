@@ -80,8 +80,11 @@
                 @media (min-width: 1024px){
                     padding-bottom: 0px;
                 }
-    
 
+                .plase:hover {
+                    color: deeppink;
+                }
+    
                 .plase {
                     font-style: normal;
                     font-weight: 400;
@@ -117,6 +120,9 @@
                     }
                 }
 
+                .phone:hover {
+                    color: deeppink;
+                }
 
                 & .button {
                     height: 24px;
@@ -267,6 +273,10 @@
                                 font-size: 16px;
                                 line-height: 20px;
                                 color: #FFFFFF;
+                            }
+
+                            a:hover {
+                                color: deeppink;
                             }
                         }
                     }

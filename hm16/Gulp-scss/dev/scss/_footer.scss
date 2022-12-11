@@ -1,0 +1,165 @@
+footer {
+    background: #F5F5FA;
+}
+
+.footer2 {
+    padding: 0 30px;
+
+    @media (min-width: 768px) {
+        padding: 0 60px;
+    }
+
+    @media (min-width: 1920px) {
+        padding: 0 160px;
+    }
+
+    &__container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+
+        .info {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            @media (min-width: 768px) {
+                display: inline-flex;
+                justify-content: space-between;
+                flex-direction: row;
+            }
+
+            a {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                text-align: right;
+                color: #B3B3BA;
+                padding-top: 10px;
+                padding-bottom: 20px;
+
+                @media (min-width: 768px) {
+                    padding-top: 0;
+                    padding-bottom: 0;
+                }
+            }
+
+            .place {
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                color: #323264;
+
+                @media (min-width: 768px) {
+                    display: inline-flex;
+                    flex-direction: row;
+                }
+
+                a::before {
+                    @media (min-width: 768px){
+                        content: "";
+                        border: 3.5px solid #B3B3BA;
+                        background: #B3B3BA;
+                        width: 6px;
+                        height: 6px;
+                        border-radius: 100%;
+                        margin: 0 6px;
+                        margin-top: 4px;
+                        display: inline-flex;
+                    }
+                }
+
+                a{
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 15px;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    color: #24A3FF;
+                    padding-top: 0;
+                    padding-bottom: 0;
+                    display: inline-flex;
+                }
+            }
+        }
+
+        .contact {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            @media (min-width: 768px) {
+                display: inline-flex;
+                flex-direction: row;
+            }
+
+            .fb {
+                height: 38px;
+                width: 38px;
+            }
+
+            .tel::after {
+
+                @media (min-width: 768px){
+                    content: "";
+                    border: 3.5px solid #B3B3BA;
+                    background: #B3B3BA;
+                    width: 6px;
+                    height: 6px;
+                    border-radius: 100%;
+                    margin: 0 6px;
+                    margin-top: 5px;
+                    display: inline-flex;
+                }
+            }
+
+            .tel::before {
+
+                @media (min-width: 768px){
+                    content: "";
+                    border: 3.5px solid #B3B3BA;
+                    background: #B3B3BA;
+                    width: 6px;
+                    height: 6px;
+                    border-radius: 100%;
+                    margin: 0 6px;
+                    margin-top: 5px;
+                    display: inline-flex;
+                }
+            }
+
+            .tel {
+                display: inline-flex;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 20px;
+                text-align: right;
+                color: #46466E;
+                padding-top: 15px;
+                padding-bottom: 10px;
+
+                @media (min-width: 768px) {
+                    padding-top: 0;
+                    padding-bottom: 0;
+                }
+                
+            }
+
+            .post {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 20px;
+                color: #24A3FF;
+            }
+        }
+    }
+}
